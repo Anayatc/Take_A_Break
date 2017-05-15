@@ -8,3 +8,6 @@ def take_break():
     while count < total_breaks:
         webbrowser.open('https://www.youtube.com/watch?v=fBdRI-1mmX4')
         time.sleep(10)
+        count += 1
+
+take_break()
